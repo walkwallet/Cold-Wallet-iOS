@@ -1,0 +1,179 @@
+/* 
+  Localizable.strings
+  Wallet
+
+  All rights reserved.
+*/
+
+"tip_init_alert_title" = "Officials Hint";
+"tip_init_alert_detail" = "To ensure the security of your personal property, please make sure that your wallet APP is downloaded from v.systems, the official website of VSYS";
+"tip_init_alert_btn" = "I got it";
+
+"settings_wallet_manager" = "Wallet Manager";
+"settings_backup" = "Backup Mnemonic Phrase";
+"settings_backup_directly" = "Backup Now";
+"settings_auto_backup_title" = "Auto Backup";
+"settings_auto_backup_desc" = "Auto backup when account change";
+
+
+"settings_secure_manager" = "Security Manager";
+"settings_connection_monitor_title" = "Network connection monitor";
+"settings_connection_monitor_desc" = "Detect WIFI、Cellular、Bluetooth";
+
+"settings_other" = "Other";
+"settings_network" = "Network";
+"settings_about_us" = "About us";
+"settings_logout_wallet" = "Logout Wallet";
+
+"settings_logout_confirm_title" = "Logout wallet?";
+"settings_logout_confirm_btn" = "Logout";
+
+
+"settings_close_touchid_title" = "Close TouchID?";
+
+
+"cancel" = "Cancel";
+"confirm" = "Confirm";
+"affirm" = "Confirm";
+
+"cellular" = "Mobile Data";
+"bluetooth" = "Bluetooth";
+
+"connected" = "Connected";
+"unconnected" = "Unconnected";
+
+"tabbar_name_0" = "Wallet";
+"tabbar_name_1" = "Settings";
+"tabbar_page_title_0" = "Wallet";
+"tabbar_page_title_1" = "Setting";
+
+"launch_page_title" = "Welcome WALK WALLET";
+"launch_page_subtitle" = "Please create or import wallet";
+
+"input_password" = "Wallet Password";
+"incorrect_password_tip_title" = "Incorrect Wallet Password";
+"re_input" = "ReInput";
+
+"create_wallet" = "Create Wallet";
+"import_wallet" = "Import Wallet";
+"mnemonic_word_import" = "Import with mnemonic words";
+"local_backup_import" = "Import local backup";
+
+"setup_password" = "Setup password";
+"wallet_password_settings_tip_text" = "Walk Wallet does not store your password.It cannot be recovered if forgotten.Please keep it properly";
+"create_wallet_password" = "Create wallet password";
+"wallet_password_placeholder" = "Please input at least 8 characters";
+"wallet_password_length_tip_text" = "Please input at least 8 characters";
+"confirm_wallet_password" = "Confirm wallet password";
+"confirm_wallet_password_placeholder" = "Please input";
+"confirm_wallet_password_consistency_tip_text" = "Passwords do not match";
+
+"secure_level_1" = "Weak";
+"secure_level_2" = "Fair";
+"secure_level_3" = "Good";
+"secure_level_4" = "Strong";
+"secure_level_5" = "Perfect";
+
+"password_secure_level_weak_tip_title" = "Password strength is too weak";
+"password_secure_level_weak_tip_message" = "For your wallet security, password strength should be at least \"good\"";
+"back_reset_password" = "Back to reset password";
+"continue_complete_create" = "Continue";
+"wallet_create_success_tip_title" = "Successful created";
+"wallet_create_success_tip_message" = "We strongly recommend backing up your wallet now.";
+"backup_wallet" = "Backup wallet";
+"later_on_backup" = "Backup later";
+"complete" = "Complete";
+"mnemonic_word_backup_success_tip_title" = "Successfully backed up";
+"mnemonic_word_backup_success_tip_message" = "Please keep your mnemonic words carefully";
+
+"backup_mnemonic_word" = "Backup mnemonics";
+"backup_mnemonic_word_tip_text" = "Screenshots are not safe and your images may be used by other applications. Please use pen and paper to copy the following mnemonic words and save them properly. We will confirm on the next screen";
+"mnemonic_word_already_write_down" = "I have saved them orderly";
+"check_mnemonic_word_tip_text" = "Click on the mnemonic words orderly to confirm.";
+"clear" = "Clear";
+
+"no_available_camera_tip" = "No camera available";
+"unable_to_open_camera_tip" = "Camera access has not yet been opened.";
+"go_to_settings" = "Go to Settings";
+"scan_qr_code" = "Scan QR Code";
+"scan_qr_code_tip_text" = "The QR code can be automatically scanned in the box";
+"qr_code_version_is_too_high_tip_text" = "Unsupported types, please upgrade the current Wallet";
+"qr_code_unsupported_types_tip_text" = "Unsupported QR code types";
+"qr_code_transaction_account_error_tip_text" = "The trading account is not included in the wallet account";
+
+"account" = "Account";
+"add_more_account" = "Add Acounts";
+
+"import_mnemonic_word_tip" = "Mnemonic words consist of 15 words, please pay attention to the input space separated";
+"import_phrase_title" = "Mnemonic words";
+
+"import_phrase_validate_err" = "Validate fail, please check the spelling of the words";
+"import_phrase_unofficial_tip" = "";
+"ok" = "Ok";
+
+"import_local_backup_err" = "Local backup not found, please import with mnemonic";
+
+"next" = "Next";
+
+"detect_local_wallet" = "Detected a local wallet";
+
+
+"version_title" = "Version";
+"version_desc" = "Walk Wallet Cold is reference implementation of high security cold storage for the VSYS blockchain network.It implements Walk Wallet format specification 1.0";
+
+"network_mainnet" = "Mainnet";
+"network_testnet" = "Testnet";
+"network_choose_tip" = "After the wallet is successfully created, the network cannot be changed";
+"network_mainnet_desc" = "Under the formal network environment, users can safely store the real assets of VSYS. This environment is suitable for ordinary users' daily use.";
+"network_testnet_desc" = "Under the test network environment, users are not allowed to store the real assets of VSYS safely. This environment is suitable for developers to do simulation test. If you are not a professional developer, you are recommended to use the formal environment";
+"network_title" = "Network";
+"network_choose_btn_title1" = "Click to switch back to the formal environment";
+"network_choose_btn_title2" = "Click to switch to the developer test environment";
+"network_change_tip" = "The test environment is only available for developers to test. Are you sure you want to use it?";
+
+
+"unofficial_tip_title" = "Unofficial mnemonic detected";
+"unofficial_tip_detail" = "Mnemonic words from unknown sources can completely lose your assets. Still using the mnemonic?";
+
+"trade_confirm" = "Review transaction";
+"trade_confirm_tip_text" = "Please check the following transaction information carefully";
+"trade_confirm_my_address" = "From";
+"trade_confirm_recipient_address" = "To";
+"trade_confirm_transaction_type" = "Type";
+"trade_confirm_amount" = "Amount";
+"trade_confirm_poundage" = "Fee";
+"trade_confirm_time" = "Time";
+"trade_confirm_china_standard_time" = "Chinese standard time";
+"trade_confirm_remark" = "Description";
+"confirm_transaction" = "Send now";
+"trade_verify_title" = "Validate transaction";
+"trade_verify_desc" = "Scan QR coda via hot wallet to validate signature";
+"account_address_detail" = "(only for verifying when make transactions)";
+
+"trade_confirm_unsupported_transaction_type_tip_text" = "Unsupported transaction type";
+
+
+"logout_tip_title" = "Write out the wallet";
+"logout_tip_detail" = "Have you recorded your wallet Recovery phrase?Without this you will not be able to sign back in to your account.";
+
+
+"add_account_tip_title" = "You will add a new account that cannot be deleted. Are you sure to add?";
+"add_account_tip_detail" = "Add a new account";
+"add_account_confirm" = "Continue";
+
+"logout_confirm" = "Confirm";
+
+"connection_monitor_title" = "Network connection monitoring";
+"connection_monitor_detail" = "In the case of network data connection, your cold wallet may be at great risk of being stolen by criminals, in order to ensure the safety of your personal property, please be sure to shut down all the data network for use";
+"connection_monitor_btn" = "Refresh";
+
+"password_auth_title_detail" = "Please enter your wallet password";
+"password_auth_placeholder" = "Please input wallet password";
+
+// ---- touch auth ----
+"tip_secure_auth_detail" = "Unlock Walk Wallet";
+
+// ---- Transaction Type ----
+"const_transaction_type_payment" = "Payment";
+"const_transaction_type_lease" = "Lease";
+"const_transaction_type_lease_cancel" = "Cancel Lease";

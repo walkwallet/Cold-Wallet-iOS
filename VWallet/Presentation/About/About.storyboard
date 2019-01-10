@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FOI-bs-R4w">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About Us-->
+        <scene sceneID="3ng-iX-N2p">
+            <objects>
+                <tableViewController title="About Us" id="FOI-bs-R4w" customClass="AboutTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EOg-o5-ri0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="cWU-0r-6f4">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="417"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vee_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5tw-dK-vn1">
+                                    <rect key="frame" x="139.5" y="0.0" width="96" height="96"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="96" id="3Q0-hJ-6Xe"/>
+                                        <constraint firstAttribute="height" constant="96" id="Bir-xU-VWQ"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" red="0.21176470588235294" green="0.21176470588235294" blue="0.23921568627450979" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vee_logo_text" translatesAutoresizingMaskIntoConstraints="NO" id="SNQ-7Q-dx5">
+                                    <rect key="frame" x="79.5" y="128" width="216" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="216" id="edn-kD-sN5"/>
+                                        <constraint firstAttribute="height" constant="20" id="jsB-v4-pMZ"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 0.1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuQ-dt-8Aq">
+                                    <rect key="frame" x="146.5" y="160" width="82" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEi-7L-1do">
+                                    <rect key="frame" x="40" y="193" width="295" height="60.5"/>
+                                    <attributedString key="attributedText">
+                                        <fragment content="VEE Cold Wallet ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="system" size="14"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="是参考">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="VEE">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="system" size="14"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="区块链网络，而实现的一款高安全性的冷钱包。它实现了">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="VEE">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="system" size="14"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="钱包格式规范">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="1.0">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="system" size="14"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="。">
+                                            <attributes>
+                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="5tw-dK-vn1" firstAttribute="centerX" secondItem="cWU-0r-6f4" secondAttribute="centerX" id="31g-zV-ZpZ"/>
+                                <constraint firstItem="VuQ-dt-8Aq" firstAttribute="top" secondItem="SNQ-7Q-dx5" secondAttribute="bottom" constant="12" id="A0w-xo-sy7"/>
+                                <constraint firstItem="SNQ-7Q-dx5" firstAttribute="centerX" secondItem="cWU-0r-6f4" secondAttribute="centerX" id="M8A-xu-USb"/>
+                                <constraint firstItem="5tw-dK-vn1" firstAttribute="top" secondItem="cWU-0r-6f4" secondAttribute="top" id="M8d-oQ-IMm"/>
+                                <constraint firstItem="VuQ-dt-8Aq" firstAttribute="centerX" secondItem="cWU-0r-6f4" secondAttribute="centerX" id="OXr-UE-Jon"/>
+                                <constraint firstItem="PEi-7L-1do" firstAttribute="top" secondItem="VuQ-dt-8Aq" secondAttribute="bottom" constant="16" id="cNl-Ek-vdJ"/>
+                                <constraint firstItem="PEi-7L-1do" firstAttribute="leading" secondItem="cWU-0r-6f4" secondAttribute="leading" constant="40" id="j8w-KT-wKx"/>
+                                <constraint firstItem="SNQ-7Q-dx5" firstAttribute="top" secondItem="5tw-dK-vn1" secondAttribute="bottom" constant="32" id="o91-wE-PuR"/>
+                                <constraint firstAttribute="trailing" secondItem="PEi-7L-1do" secondAttribute="trailing" constant="40" id="zap-yi-Haw"/>
+                            </constraints>
+                        </view>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="MSX-eZ-aOT">
+                            <rect key="frame" x="0.0" y="417" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="FOI-bs-R4w" id="IF4-K5-kdM"/>
+                            <outlet property="delegate" destination="FOI-bs-R4w" id="W6A-TQ-DaW"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="descLabel" destination="PEi-7L-1do" id="Kqj-w8-Xm6"/>
+                        <outlet property="versionLabel" destination="VuQ-dt-8Aq" id="HNd-Es-t8U"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AvK-am-qgG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.600000000000001" y="-456.52173913043481"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vee_logo" width="62" height="52"/>
+        <image name="vee_logo_text" width="200" height="18"/>
+    </resources>
+</document>

@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "导入钱包"; ObjectID = "JW4-xT-agp"; */
+"JW4-xT-agp.normalTitle" = "Import Wallet";
+
+/* Class = "UIButton"; normalTitle = "助记词导入"; ObjectID = "JwY-Wm-QJz"; */
+"JwY-Wm-QJz.normalTitle" = "助记词导入";
+
+/* Class = "UILabel"; text = "欢迎使用WALK WALLET"; ObjectID = "WQw-se-CSM"; */
+"WQw-se-CSM.text" = "欢迎使用WALK WALLET";
+
+/* Class = "UILabel"; text = "请先创建钱包、或导入钱包"; ObjectID = "x7s-Fg-fIL"; */
+"x7s-Fg-fIL.text" = "请先创建钱包、或导入钱包";
+
+/* Class = "UIButton"; normalTitle = "创建钱包"; ObjectID = "zUn-ao-V2Z"; */
+"zUn-ao-V2Z.normalTitle" = "创建钱包";

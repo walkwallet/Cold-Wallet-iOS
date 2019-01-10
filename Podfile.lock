@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - Reveal-SDK (13)
+  - SAMKeychain (1.5.3)
+
+DEPENDENCIES:
+  - Masonry
+  - Reveal-SDK
+  - SAMKeychain
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - Reveal-SDK
+    - SAMKeychain
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Reveal-SDK: ccc2b0f8014965ea448b7534a7c2c8da232b75e8
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+
+PODFILE CHECKSUM: fc5dec0917d8f433f0349ba42f237bad644c7cd8
+
+COCOAPODS: 1.5.3

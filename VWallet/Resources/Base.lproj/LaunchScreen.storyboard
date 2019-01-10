@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_bg" translatesAutoresizingMaskIntoConstraints="NO" id="QCl-uk-lMz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vee_logo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WFw-pS-ShI">
+                                <rect key="frame" x="139.5" y="102" width="96" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="6lq-q1-Tuf"/>
+                                    <constraint firstAttribute="height" constant="96" id="yo6-08-LDl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018 V SYSTEMS ALL rights reserved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igs-RV-pQ2">
+                                <rect key="frame" x="66" y="634" width="243" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vee_logo_text" translatesAutoresizingMaskIntoConstraints="NO" id="iH0-kB-pX4">
+                                <rect key="frame" x="79.5" y="230" width="216" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="KbB-a5-aJl"/>
+                                    <constraint firstAttribute="width" constant="216" id="W0H-Xf-LQ9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="QCl-uk-lMz" secondAttribute="trailing" id="16B-sk-4gO"/>
+                            <constraint firstItem="iH0-kB-pX4" firstAttribute="top" secondItem="WFw-pS-ShI" secondAttribute="bottom" constant="32" id="1a1-R3-q4I"/>
+                            <constraint firstItem="QCl-uk-lMz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Enn-9q-xab"/>
+                            <constraint firstItem="iH0-kB-pX4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="N2H-Zf-6su"/>
+                            <constraint firstItem="WFw-pS-ShI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="0.45" id="RdW-p5-Q4z"/>
+                            <constraint firstItem="WFw-pS-ShI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ddK-H6-Zrk"/>
+                            <constraint firstItem="igs-RV-pQ2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="erl-MS-sKm"/>
+                            <constraint firstAttribute="bottom" secondItem="QCl-uk-lMz" secondAttribute="bottom" id="rJ2-Wb-gCD"/>
+                            <constraint firstItem="QCl-uk-lMz" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="sfm-cs-JD1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="igs-RV-pQ2" secondAttribute="bottom" constant="16" id="us5-Ww-tlQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch_bg" width="375" height="812"/>
+        <image name="vee_logo_icon" width="96" height="96"/>
+        <image name="vee_logo_text" width="185" height="18"/>
+    </resources>
+</document>

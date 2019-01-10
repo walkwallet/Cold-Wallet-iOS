@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lLT-yM-i2a">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Monitor View Controller-->
+        <scene sceneID="93u-1e-i60">
+            <objects>
+                <viewController id="lLT-yM-i2a" customClass="MonitorViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VhQ-Dc-7EG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wEF-1A-zty">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="Jb7-Qu-Mm8">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="272"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_monitor_unsafe" translatesAutoresizingMaskIntoConstraints="NO" id="67B-3h-lDw">
+                                            <rect key="frame" x="143.5" y="71.5" width="88" height="88"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="88" id="CLb-fa-G7Y"/>
+                                                <constraint firstAttribute="width" constant="88" id="meS-tp-GXd"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Network connection monitoring" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRc-Pb-h4U">
+                                            <rect key="frame" x="5" y="191.5" width="365" height="33.5"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use a cold wallet when all the data networks are down" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLi-KX-wKD">
+                                            <rect key="frame" x="10" y="235" width="355" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="67B-3h-lDw" firstAttribute="centerX" secondItem="Jb7-Qu-Mm8" secondAttribute="centerX" id="4fX-HK-9eE"/>
+                                        <constraint firstAttribute="bottom" secondItem="BLi-KX-wKD" secondAttribute="bottom" constant="20" id="9XV-W7-dza"/>
+                                        <constraint firstAttribute="trailing" secondItem="cRc-Pb-h4U" secondAttribute="trailing" constant="5" id="9kg-bl-xD1"/>
+                                        <constraint firstItem="BLi-KX-wKD" firstAttribute="top" secondItem="cRc-Pb-h4U" secondAttribute="bottom" constant="10" id="L7e-cP-zSP"/>
+                                        <constraint firstItem="cRc-Pb-h4U" firstAttribute="top" secondItem="67B-3h-lDw" secondAttribute="bottom" constant="32" id="PCi-jz-g1r"/>
+                                        <constraint firstItem="BLi-KX-wKD" firstAttribute="centerX" secondItem="Jb7-Qu-Mm8" secondAttribute="centerX" id="Xcg-Yu-z2Z"/>
+                                        <constraint firstItem="cRc-Pb-h4U" firstAttribute="leading" secondItem="Jb7-Qu-Mm8" secondAttribute="leading" constant="5" id="YTR-CW-edU"/>
+                                        <constraint firstItem="cRc-Pb-h4U" firstAttribute="centerX" secondItem="Jb7-Qu-Mm8" secondAttribute="centerX" id="c2b-oG-PJK"/>
+                                        <constraint firstItem="BLi-KX-wKD" firstAttribute="leading" secondItem="Jb7-Qu-Mm8" secondAttribute="leading" constant="10" id="ohp-8b-cDG"/>
+                                    </constraints>
+                                </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="lLT-yM-i2a" id="cDr-iK-4gL"/>
+                                    <outlet property="delegate" destination="lLT-yM-i2a" id="kBa-sM-yxe"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcB-BN-niQ" customClass="ThemeButton">
+                                <rect key="frame" x="16" y="534" width="568" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Wva-pw-uRm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Refresh"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="submit" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="redetectionBtnClick:" destination="lLT-yM-i2a" eventType="touchUpInside" id="0jW-3X-wcn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IcB-BN-niQ" firstAttribute="leading" secondItem="7PF-tP-9tT" secondAttribute="leading" constant="16" id="0aJ-mD-6PC"/>
+                            <constraint firstItem="7PF-tP-9tT" firstAttribute="bottom" secondItem="IcB-BN-niQ" secondAttribute="bottom" constant="16" id="MKJ-9V-eKW"/>
+                            <constraint firstItem="wEF-1A-zty" firstAttribute="top" secondItem="VhQ-Dc-7EG" secondAttribute="top" id="TRB-gd-Qld"/>
+                            <constraint firstItem="wEF-1A-zty" firstAttribute="bottom" secondItem="VhQ-Dc-7EG" secondAttribute="bottom" id="aRV-lA-ZRV"/>
+                            <constraint firstItem="IcB-BN-niQ" firstAttribute="centerX" secondItem="VhQ-Dc-7EG" secondAttribute="centerX" id="eqB-D3-K5u"/>
+                            <constraint firstItem="wEF-1A-zty" firstAttribute="trailing" secondItem="VhQ-Dc-7EG" secondAttribute="trailing" id="nci-zf-9Yr"/>
+                            <constraint firstItem="wEF-1A-zty" firstAttribute="leading" secondItem="VhQ-Dc-7EG" secondAttribute="leading" id="zRG-wM-uqR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7PF-tP-9tT"/>
+                    </view>
+                    <connections>
+                        <outlet property="descLabel" destination="BLi-KX-wKD" id="T7U-zH-bMw"/>
+                        <outlet property="refreshBtn" destination="IcB-BN-niQ" id="eLI-Ff-Moz"/>
+                        <outlet property="tableView" destination="wEF-1A-zty" id="EgF-f3-58e"/>
+                        <outlet property="titleLabel" destination="cRc-Pb-h4U" id="OK8-xP-VFd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oMs-gS-bLi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1695" y="216"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ico_monitor_unsafe" width="88" height="88"/>
+    </resources>
+</document>
