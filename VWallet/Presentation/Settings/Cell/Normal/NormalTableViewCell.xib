@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NormalTableViewCell" id="ZPa-r0-dEX" customClass="NormalTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZPa-r0-dEX" id="k9T-gm-O1P">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="yWD-F9-eH4">
+                        <rect key="frame" x="20" y="12" width="335" height="20"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uKX-qs-paR">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Jyh-cx-Vv9"/>
+                                    <constraint firstAttribute="width" constant="20" id="dPL-rF-djH"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpD-UC-4UH">
+                                <rect key="frame" x="32" y="0.0" width="149" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTg-h5-rIa">
+                                <rect key="frame" x="193" y="0.0" width="142" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="142" id="79g-IX-rde"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="0.52941176469999995" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0i4-xH-1kA">
+                        <rect key="frame" x="20" y="43" width="335" height="0.5"/>
+                        <color key="backgroundColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="d5g-x0-VsC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yWD-F9-eH4" firstAttribute="centerY" secondItem="k9T-gm-O1P" secondAttribute="centerY" id="2EI-WJ-gz2"/>
+                    <constraint firstAttribute="bottom" secondItem="0i4-xH-1kA" secondAttribute="bottom" id="MXP-B6-hs2"/>
+                    <constraint firstAttribute="trailing" secondItem="0i4-xH-1kA" secondAttribute="trailing" constant="20" id="MvX-Hp-76h"/>
+                    <constraint firstItem="yWD-F9-eH4" firstAttribute="leading" secondItem="k9T-gm-O1P" secondAttribute="leading" constant="20" id="Qaf-zb-zN1"/>
+                    <constraint firstItem="0i4-xH-1kA" firstAttribute="leading" secondItem="k9T-gm-O1P" secondAttribute="leading" constant="20" id="TLz-DJ-nwO"/>
+                    <constraint firstAttribute="trailing" secondItem="yWD-F9-eH4" secondAttribute="trailing" constant="20" id="aHB-aH-LZz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+            <connections>
+                <outlet property="descLabel" destination="lTg-h5-rIa" id="IYk-n7-do9"/>
+                <outlet property="iconImageView" destination="uKX-qs-paR" id="K5U-39-wVp"/>
+                <outlet property="titleLabel" destination="tpD-UC-4UH" id="yWE-yc-Bsl"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

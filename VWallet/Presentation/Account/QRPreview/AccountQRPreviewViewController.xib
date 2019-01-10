@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccountQRPreviewViewController">
+            <connections>
+                <outlet property="contentView" destination="xSe-gO-bKX" id="LeA-3H-END"/>
+                <outlet property="detailLabel" destination="9DV-wp-mJV" id="l7Q-xw-pUb"/>
+                <outlet property="flagLabel" destination="ahx-a2-FzY" id="87I-5H-rpF"/>
+                <outlet property="flagView" destination="i7z-i3-tgs" id="C46-ON-RE1"/>
+                <outlet property="qrcodeImgView" destination="xuZ-84-Sk1" id="pXp-ls-e6A"/>
+                <outlet property="valueLabel" destination="Uuc-A8-wRH" id="JBE-to-ViC"/>
+                <outlet property="valueLabel1" destination="kkO-ez-728" id="ceT-Ha-ExM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xSe-gO-bKX" customClass="ThemeView">
+                    <rect key="frame" x="16" y="153" width="343" height="361.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i7z-i3-tgs">
+                            <rect key="frame" x="16" y="26" width="40" height="40"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahx-a2-FzY" customClass="ThemeLabel">
+                                    <rect key="frame" x="5" y="5.5" width="30" height="29"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="autoAdjFont" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="ahx-a2-FzY" firstAttribute="centerY" secondItem="i7z-i3-tgs" secondAttribute="centerY" id="99m-Qn-vHm"/>
+                                <constraint firstAttribute="trailing" secondItem="ahx-a2-FzY" secondAttribute="trailing" constant="5" id="MLu-pk-THK"/>
+                                <constraint firstItem="ahx-a2-FzY" firstAttribute="leading" secondItem="i7z-i3-tgs" secondAttribute="leading" constant="5" id="cub-fo-nDY"/>
+                                <constraint firstAttribute="width" secondItem="i7z-i3-tgs" secondAttribute="height" id="qd9-1g-uvd"/>
+                                <constraint firstAttribute="width" constant="40" id="wXO-u6-6Pw"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="账户地址" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uuc-A8-wRH" customClass="ThemeLabel">
+                            <rect key="frame" x="72" y="33.5" width="227" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="HrN-Pc-Koz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARAbwCasdfigsdfhasdojf83NncT" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkO-ez-728" customClass="ThemeLabel">
+                            <rect key="frame" x="72" y="64.5" width="227" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="secondTheme" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DV-wp-mJV" customClass="ThemeLabel">
+                            <rect key="frame" x="168" y="96.5" width="7" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="secondTheme" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="flT-77-4gf">
+                            <rect key="frame" x="83.5" y="129.5" width="176" height="176"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xuZ-84-Sk1">
+                                    <rect key="frame" x="5" y="5" width="166" height="166"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="xuZ-84-Sk1" firstAttribute="leading" secondItem="flT-77-4gf" secondAttribute="leading" constant="5" id="0nk-w6-I2i"/>
+                                <constraint firstAttribute="height" constant="176" id="Lhz-7m-GhN"/>
+                                <constraint firstAttribute="trailing" secondItem="xuZ-84-Sk1" secondAttribute="trailing" constant="5" id="OJA-j9-Jdu"/>
+                                <constraint firstAttribute="bottom" secondItem="xuZ-84-Sk1" secondAttribute="bottom" constant="5" id="Pn2-P6-bM2"/>
+                                <constraint firstItem="xuZ-84-Sk1" firstAttribute="top" secondItem="flT-77-4gf" secondAttribute="top" constant="5" id="Qbt-Nu-aFa"/>
+                                <constraint firstAttribute="width" secondItem="flT-77-4gf" secondAttribute="height" id="lAM-Ot-Bqh"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaL-Qh-bmq" customClass="ThemeButton">
+                            <rect key="frame" x="299" y="0.0" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="WaL-Qh-bmq" secondAttribute="height" id="dVE-2P-qtY"/>
+                                <constraint firstAttribute="width" constant="44" id="n5u-kD-8dN"/>
+                            </constraints>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="contentEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
+                            <state key="normal" image="ico_close">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="secondTheme" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="close" destination="-1" eventType="touchUpInside" id="jke-eF-BzY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="kkO-ez-728" firstAttribute="leading" secondItem="Uuc-A8-wRH" secondAttribute="leading" id="2Kd-Le-JI8"/>
+                        <constraint firstAttribute="bottom" secondItem="flT-77-4gf" secondAttribute="bottom" constant="56" id="3RO-F1-Hy8"/>
+                        <constraint firstItem="i7z-i3-tgs" firstAttribute="leading" secondItem="xSe-gO-bKX" secondAttribute="leading" constant="16" id="7e4-Ot-Usu"/>
+                        <constraint firstItem="9DV-wp-mJV" firstAttribute="top" secondItem="kkO-ez-728" secondAttribute="bottom" constant="15" id="9U1-Z7-LNG"/>
+                        <constraint firstItem="WaL-Qh-bmq" firstAttribute="top" secondItem="xSe-gO-bKX" secondAttribute="top" id="PJS-eW-fJp"/>
+                        <constraint firstItem="i7z-i3-tgs" firstAttribute="top" secondItem="xSe-gO-bKX" secondAttribute="top" constant="26" id="WKJ-9Q-V1X"/>
+                        <constraint firstItem="flT-77-4gf" firstAttribute="top" secondItem="kkO-ez-728" secondAttribute="bottom" constant="48" id="b5X-cb-nbO"/>
+                        <constraint firstItem="kkO-ez-728" firstAttribute="trailing" secondItem="Uuc-A8-wRH" secondAttribute="trailing" id="bdD-sk-43k"/>
+                        <constraint firstItem="Uuc-A8-wRH" firstAttribute="leading" secondItem="i7z-i3-tgs" secondAttribute="trailing" constant="16" id="cLD-Tj-3Tj"/>
+                        <constraint firstItem="flT-77-4gf" firstAttribute="centerX" secondItem="xSe-gO-bKX" secondAttribute="centerX" id="diZ-JO-78a"/>
+                        <constraint firstItem="WaL-Qh-bmq" firstAttribute="leading" secondItem="Uuc-A8-wRH" secondAttribute="trailing" id="mWa-PO-D09"/>
+                        <constraint firstItem="kkO-ez-728" firstAttribute="top" secondItem="Uuc-A8-wRH" secondAttribute="bottom" constant="6" id="mts-wg-MJV"/>
+                        <constraint firstItem="Uuc-A8-wRH" firstAttribute="centerY" secondItem="i7z-i3-tgs" secondAttribute="centerY" id="ttB-Qu-H94"/>
+                        <constraint firstItem="9DV-wp-mJV" firstAttribute="centerX" secondItem="xSe-gO-bKX" secondAttribute="centerX" id="uKX-0m-MCN"/>
+                        <constraint firstAttribute="trailing" secondItem="WaL-Qh-bmq" secondAttribute="trailing" id="zlr-gC-mRb"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69953059348739499" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xSe-gO-bKX" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="16" id="DCp-L9-QB5"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="xSe-gO-bKX" secondAttribute="trailing" constant="16" id="YcW-lv-Geu"/>
+                <constraint firstItem="xSe-gO-bKX" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="nFQ-8j-Wsf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="138.40000000000001" y="154.27286356821591"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ico_close" width="18" height="18"/>
+    </resources>
+</document>

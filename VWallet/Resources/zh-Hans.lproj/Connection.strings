@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Network Connection Monitor"; ObjectID = "5eC-cH-hSg"; */
+"5eC-cH-hSg.text" = "网络连接监控";
+
+/* Class = "UIButton"; normalTitle = "Redetection"; ObjectID = "oXp-Jq-OVp"; */
+"oXp-Jq-OVp.normalTitle" = "重新检测";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "v7G-kc-pWG"; */
+"v7G-kc-pWG.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vSv-L9-3s8"; */
+"vSv-L9-3s8.text" = "Label";
+
+/* Class = "UILabel"; text = "Please use wallet afer close all the connection"; ObjectID = "wCm-GJ-lWj"; */
+"wCm-GJ-lWj.text" = "请在所有数据网络关闭的情况下使用冷钱包";
