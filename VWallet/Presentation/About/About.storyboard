@@ -21,7 +21,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="417"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vee_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5tw-dK-vn1">
+                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vsys_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5tw-dK-vn1">
                                     <rect key="frame" x="139.5" y="0.0" width="96" height="96"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="96" id="3Q0-hJ-6Xe"/>
@@ -147,7 +147,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="vee_logo" width="62" height="52"/>
         <image name="vee_logo_text" width="200" height="18"/>
+        <image name="vsys_logo" width="56" height="45"/>
     </resources>
 </document>

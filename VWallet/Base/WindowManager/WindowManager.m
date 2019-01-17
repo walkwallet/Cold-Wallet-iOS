@@ -24,26 +24,27 @@
         [currentRootVC dismissViewControllerAnimated:NO completion:nil];
     }
     
-    UIWindow *window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
-    window.rootViewController = viewController;
-    appDelegate.window = window;
-    [window makeKeyAndVisible];
+    for (UIView *subView in appDelegate.window.rootViewController.view.subviews) {
+        [subView removeFromSuperview];
+    }
+    [appDelegate.window.rootViewController.view removeFromSuperview];
     
-    appDelegate.window.rootViewController = viewController;
-//    for (UIView *subView in appDelegate.window.rootViewController.view.subviews) {
-//        [subView removeFromSuperview];
-//    }
-//    [appDelegate.window.rootViewController.view removeFromSuperview];
-//
-//    if (currentRootVC.presentingViewController) {
-//        [currentRootVC.presentingViewController dismissViewControllerAnimated:NO completion:^{
-//            dispatch_async(dispatch_get_main_queue(), ^{
-//                appDelegate.window.rootViewController = viewController;
-//            });
-//        }];
-//    } else {
-//        appDelegate.window.rootViewController = viewController;
-//    }
+//    UIWindow *window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+//    window.rootViewController = viewController;
+//    appDelegate.window = window;
+//    [window makeKeyAndVisible];
+//    appDelegate.window.rootViewController = viewController;
+
+
+    if (currentRootVC.presentingViewController) {
+        [currentRootVC.presentingViewController dismissViewControllerAnimated:NO completion:^{
+            dispatch_async(dispatch_get_main_queue(), ^{
+                appDelegate.window.rootViewController = viewController;
+            });
+        }];
+    } else {
+        appDelegate.window.rootViewController = viewController;
+    }
 }
 
 + (UIViewController *)topViewController {

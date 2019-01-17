@@ -21,7 +21,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_bg" translatesAutoresizingMaskIntoConstraints="NO" id="QCl-uk-lMz">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vee_logo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WFw-pS-ShI">
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vsys_logo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WFw-pS-ShI">
                                 <rect key="frame" x="139.5" y="102" width="96" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="96" id="6lq-q1-Tuf"/>
@@ -65,7 +65,7 @@
     </scenes>
     <resources>
         <image name="launch_bg" width="375" height="812"/>
-        <image name="vee_logo_icon" width="96" height="96"/>
-        <image name="vee_logo_text" width="185" height="18"/>
+        <image name="vee_logo_text" width="200" height="18"/>
+        <image name="vsys_logo_icon" width="96" height="96"/>
     </resources>
 </document>
