@@ -21,7 +21,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="417"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vee_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5tw-dK-vn1">
+                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vsys_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5tw-dK-vn1">
                                     <rect key="frame" x="139.5" y="0.0" width="96" height="96"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="96" id="3Q0-hJ-6Xe"/>
@@ -39,7 +39,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </imageView>
-                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vee_logo_text" translatesAutoresizingMaskIntoConstraints="NO" id="SNQ-7Q-dx5">
+                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vsys_logo_text" translatesAutoresizingMaskIntoConstraints="NO" id="SNQ-7Q-dx5">
                                     <rect key="frame" x="79.5" y="128" width="216" height="20"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="216" id="edn-kD-sN5"/>
@@ -53,65 +53,8 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEi-7L-1do">
-                                    <rect key="frame" x="40" y="193" width="295" height="60.5"/>
-                                    <attributedString key="attributedText">
-                                        <fragment content="VEE Cold Wallet ">
-                                            <attributes>
-                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" metaFont="system" size="14"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment content="是参考">
-                                            <attributes>
-                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment content="VEE">
-                                            <attributes>
-                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" metaFont="system" size="14"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment content="区块链网络，而实现的一款高安全性的冷钱包。它实现了">
-                                            <attributes>
-                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment content="VEE">
-                                            <attributes>
-                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" metaFont="system" size="14"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment content="钱包格式规范">
-                                            <attributes>
-                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment content="1.0">
-                                            <attributes>
-                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" metaFont="system" size="14"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                        <fragment content="。">
-                                            <attributes>
-                                                <color key="NSColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <rect key="frame" x="40" y="193" width="295" height="0.0"/>
+                                    <attributedString key="attributedText"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
@@ -147,7 +90,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="vee_logo" width="62" height="52"/>
-        <image name="vee_logo_text" width="200" height="18"/>
+        <image name="vsys_logo" width="56" height="45"/>
+        <image name="vsys_logo_text" width="200" height="18"/>
     </resources>
 </document>

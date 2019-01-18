@@ -501,7 +501,6 @@
 			children = (
 				40611B5821BA5DA000D67CE7 /* LaunchScreen.strings */,
 				40611B5A21BA5DA000D67CE7 /* Main.strings */,
-				40611B5C21BA5DA000D67CE7 /* InfoPlist.strings */,
 				40611B5E21BA5DA000D67CE7 /* Connection.strings */,
 				40611B6121BA5DA000D67CE7 /* LaunchScreen.storyboard */,
 				40611B6321BA5DA000D67CE7 /* main.m */,
@@ -1068,6 +1067,7 @@
 			isa = PBXGroup;
 			children = (
 				40611C1C21BA5DA100D67CE7 /* Localizable.strings */,
+				40611B5C21BA5DA000D67CE7 /* InfoPlist.strings */,
 				40611C1F21BA5DA100D67CE7 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -1679,7 +1679,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9LL2CTCDPL;
+				DEVELOPMENT_TEAM = WXK7UF23NY;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1692,7 +1692,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = systems.v.wallet.cold;
+				PRODUCT_BUNDLE_IDENTIFIER = systems.v.app.cold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1706,7 +1706,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9LL2CTCDPL;
+				DEVELOPMENT_TEAM = WXK7UF23NY;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1719,7 +1719,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = systems.v.wallet.cold;
+				PRODUCT_BUNDLE_IDENTIFIER = systems.v.app.cold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
