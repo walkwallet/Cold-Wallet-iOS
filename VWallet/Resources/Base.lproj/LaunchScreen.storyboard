@@ -34,7 +34,7 @@
                                 <color key="textColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vee_logo_text" translatesAutoresizingMaskIntoConstraints="NO" id="iH0-kB-pX4">
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vsys_logo_text" translatesAutoresizingMaskIntoConstraints="NO" id="iH0-kB-pX4">
                                 <rect key="frame" x="79.5" y="230" width="216" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="KbB-a5-aJl"/>
@@ -65,7 +65,7 @@
     </scenes>
     <resources>
         <image name="launch_bg" width="375" height="812"/>
-        <image name="vee_logo_text" width="200" height="18"/>
         <image name="vsys_logo_icon" width="96" height="96"/>
+        <image name="vsys_logo_text" width="200" height="18"/>
     </resources>
 </document>

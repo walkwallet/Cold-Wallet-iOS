@@ -2,7 +2,7 @@
 //  Scrypt.m
 //  VWallet
 //
-//  Copyright © 2018 veetech. All rights reserved.
+//  All rights reserved.
 //
 
 #import "Scrypt.h"
@@ -13,10 +13,7 @@
 
 + (NSData *)scrypt:(NSData *)password salt:(NSData *)salt n:(uint64_t)n r:(uint32_t)r p:(uint32_t)p length:(size_t)length error:(NSError **)error {
     NSMutableData *outData = [NSMutableData dataWithLength:length];
-    NSTimeInterval now = [[NSDate date] timeIntervalSince1970];
     int retval = libscrypt_scrypt((uint8_t *)password.bytes, password.length, (uint8_t *)salt.bytes, salt.length, n, r, p, [outData mutableBytes], outData.length);
-    NSTimeInterval now2 = [[NSDate date] timeIntervalSince1970];
-    NSLog(@"%f", now2 - now);
     if (retval != 0) {
         if (error) {
             *error = [NSError errorWithDomain:@"Scrypt" code:-1 userInfo:nil];
